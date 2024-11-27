@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(214, 174, 41);
+}
+
+input {
+    background-color: transparent;
+    border: 0;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(190, 150, 30);
+}
+.first-text{
+    color: black;
+    font-weight: 800;
+}
