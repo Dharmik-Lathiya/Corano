@@ -1,0 +1,130 @@
+/* General */
+:root {
+    --hover: #c29958;
+    --white: #ffffff;l
+  };
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Categories */
+.list-group-item {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.list-group-item:hover {
+    color:var(--hover);
+}
+.icon:hover{
+    color: var(--hover);
+}
+
+
+/* Products */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    width: 15.5vw;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-card h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.product-card .price {
+    font-size: 1rem;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.product-card-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.product-card-buttons button{
+    font-size: smaller;
+    border: 0;
+    border-radius: 0.5vw;
+    padding:0.8vw;
+}
+.addtocart{
+    background-color:#c29958;color:white;
+}
+.addtocart:hover{
+    color: black;
+    background-color: #ddd;
+}
+.shopnow:hover{
+    background-color:#c29958;color:white;
+}
+
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.card img {
+    border-radius: 10px 0 0 10px;
+}
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.btn-sm {
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        margin-bottom: 20px;
+        width: 15.5vw;
+    }
+}
+
+
+/* @media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .form-inline {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .list-group {
+        text-align: center;
+    }
+} */
